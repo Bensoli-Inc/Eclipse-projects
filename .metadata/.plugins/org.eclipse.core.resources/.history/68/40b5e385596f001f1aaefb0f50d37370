@@ -1,0 +1,7 @@
+package com.bensoli;
+
+import javax.servlet.http.HttpServlet;
+
+public class AdddServlet extends HttpServlet {
+
+}

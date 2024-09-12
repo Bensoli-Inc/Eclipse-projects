@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>DemoApp</display-name>
+  
+  <servlet>
+	  	<servlet-name>abc</servlet-name>
+	  	<servlet-class>com.bensoli.AddServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>abc</servlet-name>
+  		<url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+	  	<servlet-name>pqr</servlet-name>
+	  	<servlet-class>com.bensoli.SqrServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>pqr</servlet-name>
+  		<url-pattern>/sqr</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+	  	<servlet-name>addd</servlet-name>
+	  	<servlet-class>com.bensoli.AdddServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>addd</servlet-name>
+  		<url-pattern>/addd</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+	  	<servlet-name>sqrr</servlet-name>
+	  	<servlet-class>com.bensoli.SqrrServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>sqrr</servlet-name>
+  		<url-pattern>/sqrr</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+	  	<servlet-name>addsqr</servlet-name>
+	  	<servlet-class>com.sessionManagement.AddServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>addsqr</servlet-name>
+  		<url-pattern>/addsqr</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+	  	<servlet-name>sqradd</servlet-name>
+	  	<servlet-class>com.sessionManagement.SqrServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  		<servlet-name>sqradd</servlet-name>
+  		<url-pattern>/sqra</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
