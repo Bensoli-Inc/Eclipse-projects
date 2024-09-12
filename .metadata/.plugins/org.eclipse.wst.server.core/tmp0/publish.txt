@@ -1,3 +1,0 @@
-#Tomcat publish data
-#Thu Sep 12 13:26:17 EAT 2024
-org.eclipse.jst.jee.server\:ServletApps=C\:\\Users\\admin\\Desktop\\Softwares\\apache-tomcat-9.0.93\\wtpwebapps\\ServletApps

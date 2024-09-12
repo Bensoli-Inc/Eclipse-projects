@@ -1,7 +1,0 @@
-package com.bensoli;
-
-import javax.servlet.http.HttpServlet;
-
-public class sqrServlet extends HttpServlet {
-
-}

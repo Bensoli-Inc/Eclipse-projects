@@ -1,3 +1,0 @@
-INDEX VERSION 1.134
-C:\Users\admin\Desktop\Projects\EclipseProjects\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3937330030.index
-\jspApps\src\main\java
